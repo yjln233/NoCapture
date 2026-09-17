@@ -1,0 +1,9 @@
+Package: com.anfangyi.nocapture
+Name: NoCapture
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: 让 App 检测不到截屏 / 录屏 / 投屏 / 切屏 / 锁屏(公开 API 全覆盖),支持按 API 与按 App 配置
+Maintainer: anfangyi
+Author: anfangyi
+Section: Tweaks
+Depends: firmware (>= 15.0), ellekit | mobilesubstrate, preferenceloader
